@@ -1,0 +1,37 @@
+1- crear en tu cuenta de Git un repositorio llamado "estudio"
+
+2- abrir la consola de git en windows, y clonar el repositorio creado
+
+3- crear los siguiente archivos:
+index.php
+autentification.php
+homa.php
+stylo.css
+core.js
+
+4- desde consola ubicada en el folder "estudio", instalar "bower"
+info en bower.io (ingresar a la pagina y ver el procedimiento) (para saber que es bower googlear)
+
+5- una ves instalado e inicializado bower, instalar:
+    - jquery
+    - bootstrap
+NOTA: luego del procedimiento bower creara dentro del folder "estudio" una carpeta "bower_componets" (alli estaran instalados los files de bootstrap y jquery)
+
+6- en el file index.php crear un template basico html y llamar las librerias que se descargaron con bower en la carpeta "bower_componets", 
+la ubicacion de los archivos a enlazar es similar a la siguiente: bower_component/jquery/dist/jquery.min.js, debes cargar:
+    - jquery
+    - bootstrap css y js
+
+7- crear en index.php un fomulario, el cual al hacer submit envie por post un user_name y user_password, mediante al file autentification.php
+
+8 - crear en localhost/phpmyadmin una base de datos llamada estudio, con una tabla llamada user, con la sigui columnas
+    - user_id
+    - user_name
+    - user_password
+
+9 - agregar en la tabla user un nuevo registro: user_name = melina, user_password = melina123
+
+10 - en autentification.php recibir el user y password enviado desde index.php al hacer sumbit eh imprimir en pantalla con echo
+
+11- logrado el punto anterior, conectar con la base de datos "estudio" y realizar una consulta donde obtener el id del user que conincida con el username y password enviado desde el index.php
+

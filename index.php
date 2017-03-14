@@ -18,7 +18,7 @@
                         <input id="user_name" class="form-control" type="text"  name="user_name" placeholder="Nombre" required="">
                     </div>
                     <div class="form-group">
-                        <input id="user_password" class="form-control" type="password"  name="user_password" required="">
+                        <input id="user_password" class="form-control" type="password"  name="user_password" required="" placeholder="contraseña">
                     </div>
                     <button type="submit" class="btn btn-success btn-block">Registrar</button>
                 </form>

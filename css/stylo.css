@@ -17,3 +17,38 @@
     border-radius: 0px;
     height: 45px;
 }
+.p-1{
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #03637c;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    color: #03637c;
+    line-height: 60px;
+}
+.p-1 span{
+    font-weight: 900;
+    font-size: 30px;
+}
+.p-2{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ee4545;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    color: #951414;
+    line-height: 20px;
+}
+.iei{
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    color: #f12222;
+    text-align: center;
+    font-size: 50px;
+}
