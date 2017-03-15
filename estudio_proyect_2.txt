@@ -1,0 +1,19 @@
+1 - Googlear "mantener session activa con php"
+
+2- en el file autentification.php, si el login es correcto crear una session llamada $_SESSION['user_id'] cullo valor sea el id del user logeado (obtenerlo de la consulta)
+
+3- En home.php verificar que exista la session creada anteriormente, si no existe redireccionar al index.php
+
+4- Aplicar un comportamiento similar en el file autentification.php:
+	- Si ya existe la variable de session, enviar al home.php
+	- Si no existe proceder evaluando el user_name y user_password por post, si ninguno o uno de estos no existe redireccionar al index.php
+
+--------------------------
+5 - En el file home.php, crear una tabla html con 4 columnas nombradas: id, username, password, accion
+
+6 - En la tabla users de la base de datos, crear registros.
+
+7 - Ejecutar una consulta SQL para obtener la lista de registros en la tabla "users", recorrer el resultado para crear las filas en el body de la tabla creada imprimiento los valores correspondientes 
+(En la columna accion colocar un boton editar)
+
+ 

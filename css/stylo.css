@@ -45,10 +45,55 @@
     color: #951414;
     line-height: 20px;
 }
+.p-3{
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #03637c;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+    background-color: #03637c;
+    line-height: 60px;
+    color: white;
+}
+.p-3 a{
+    color: white;
+}
+.form-auten{
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+}
 .iei{
     font-family: 'Muli', sans-serif;
     font-weight: 900;
-    color: #f12222;
+    color: #995454;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
+    width: 500px;
+    margin: 25px auto;
+    padding: 20px;
+    border: 1px solid #dcc0c0;
+}
+.cerrar{
+    width: 150px;
+    /*float: right;*/
+    margin: 40px auto;
+    padding: 10px;
+    border: 1px solid #e04545;
+    overflow: hidden;
+    position: relative;
+}
+.cerrar p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    line-height: 15px;
+}
+.cerrar p a{
+    color: #d43535;
 }
